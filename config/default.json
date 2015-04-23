@@ -100,11 +100,11 @@
       "enabled": "false",
       "module": "winston-mail",
       "options": {
-        "to": "fail@hubl.in",
-        "host": "smtp@hubl.in",
+        "to": "gqadonis@gmail.com",
+        "host": "smtp.gmail.com",
         "port": 587,
-        "username": "admin",
-        "password": "secret",
+        "username": "gqadonis@gmail.com",
+        "password": "C@m3r0n!",
         "ssl": {
           "key": "",
           "ca": "",
