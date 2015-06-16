@@ -1,5 +1,7 @@
 'use strict';
 
+var angularInjections = angularInjections || [];
+
 angular.module('liveConferenceApplication', [
   'ngRoute',
   'ngSanitize',
@@ -17,13 +19,15 @@ angular.module('liveConferenceApplication', [
   'meetings.invitation.email',
   'meetings.configuration',
   'meetings.language',
+  'meetings.i18n',
   'restangular',
   'uuid4',
   'mgcrea.ngStrap',
   'ngSocial',
   'matchmedia-ng',
-  'op.live-conference-devmode'
-]).config(function($routeProvider, $locationProvider, RestangularProvider) {
+  'op.live-conference-devmode',
+  'ng.deviceDetector'
+].concat(angularInjections)).config(function($routeProvider, $locationProvider, RestangularProvider) {
 
   $routeProvider.when('/:conferenceId', {
     templateUrl: '/views/live-conference/partials/main',

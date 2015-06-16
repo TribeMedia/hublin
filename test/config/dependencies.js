@@ -39,7 +39,9 @@ module.exports.externalDependencies = function() {
     'frontend/components/matchmedia/matchMedia.js',
     'frontend/components/matchmedia-ng/matchmedia-ng.js',
     'frontend/components/angular-uuid4/angular-uuid4.min.js',
-    'node_modules/easyrtc/api/easyrtc.js'
+    'node_modules/easyrtc/api/easyrtc.js',
+    'frontend/components/chai/chai.js',
+    'frontend/components/chai-spies/chai-spies.js'
   ];
 };
 
@@ -75,6 +77,7 @@ module.exports.applicationDependencies = function() {
     'frontend/js/modules/invitation/email.js',
     'frontend/js/modules/report/report.js',
     'frontend/js/modules/conference/conference.js',
+    'frontend/js/modules/i18n/i18n.js',
     'frontend/js/live-conference/app.js'
   ];
 };

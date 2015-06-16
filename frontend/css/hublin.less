@@ -28,6 +28,11 @@ html.no-getusermedia div.meetings-landing-page #unsupported {
 
 body {
   overflow-x: hidden;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .script-font {
@@ -109,6 +114,10 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 3px;
   font-size: 18px;
   padding: 20px 40px;
+}
+
+.icon-label {
+  margin-right: 5px;
 }
 
 // Custom Navigation Bar
@@ -377,8 +386,8 @@ section {
   }
   .form-group {
     .conference-field {
-      margin: 5px 5px 0px 10px;
-      .btn-lg {
+      margin: 0px 5px 5px 10px;
+      .btn {
         background-color: white;
         color: @brand-primary;
       }
@@ -833,10 +842,8 @@ body {
 }
 
 .disconnect-modal {
-  .btn {
-    .fa {
-      margin-right: 8px;
-    }
+  .toolong {
+    margin-top: 10px;
   }
 }
 

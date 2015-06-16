@@ -54,7 +54,7 @@
   "webrtc": {
     "enabled": true,
     "level": "debug",
-    "roomNameRegExp": "^[a-z0-9_.-]{1,64}$",
+    "roomNameRegExp": "^.{1,64}$",
     "usernameRegExp": "^(.){1,200}$"
   },
   "loggers" : [
@@ -119,6 +119,8 @@
     "templatesDir": "./templates/email"
   },
   "modules": [
-    "linagora.io.meetings"
+    "linagora.io.meetings",
+    "linagora.esn.text-editor",
+    "linagora.esn.yjs"
   ]
 }

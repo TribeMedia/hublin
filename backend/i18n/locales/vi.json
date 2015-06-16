@@ -83,9 +83,16 @@
   "I just had a nice video conference with #hublin by @AwesomePaaS. It's #free #OpenSource and really great! Try it on": "Tôi vừa có hội nghị video với #hublin của @Awesomepaas. Nó #miễn-phí #mã-nguồn-mở và rất tuyệt vời ! Hãy dùng thử",
   "Connection lost": "Mất kết nối",
   "The connection to %s has been interrupted.": "Mất kết nối đến máy chủ %s.",
-  "This is often caused by a temporary network glitch and you are advised to reload the page in order to try again.": "Điều này thường xảy ra do mạng tạm thời bị trục trặc và bạn nên tải lại trang để thử lại.",
-  "Reload the page": "Tải lại trang này",
-  "Camera enabled": "Bật camera",
-  "Camera disabled": "Tắt camera",
-  "You are about to join the conference without camera. You will not be able to activate it once in the conference." : "Bạn sắp tham gia hội nghị mà không có camera. Bạn sẽ không thể kích hoạt nó khi đang ở trong hội nghị."
+  "Your browser is attempting to reconnect, but you may also reload the page in order to try again": "Trình duyệt của bạn đang kết nối lại, nhưng bạn có thể tải lại trang để thử lại",
+  "Reconnecting": "Đang kết nối lại",
+  "Do you have a camera?": "Bạn có camera hay không?",
+  "Yes": "đồng ý",
+  "No": "từ chối",
+  "You are about to join the conference without camera. You will not be able to activate it once in the conference." : "Bạn sắp tham gia hội nghị mà không có camera. Bạn sẽ không thể kích hoạt nó khi đang ở trong hội nghị.",
+  "There is an unsaved document in the collaborative editor, do you want to stay in the conference and save it?": "Tài liệu trong mục chia sẻ chưa được lưu lại , bạn có muốn ở lại trong các hội nghị và lưu lại nó?",
+  "There is an unsaved document in the collaborative editor. Do you want to save it as": "Tài liệu trong mục chia sẻ chưa được lưu lại , bạn có muốn ở lại trong các hội nghị và lưu lại dưới dạng",
+  "PDF": "PDF",
+  "Raw text": "Văn bản",
+  "Markdown": "Văn bản Markdown",
+  "Unkown": "Chưa biết"
 }
